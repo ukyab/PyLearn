@@ -16,7 +16,6 @@ def calc(fh, fr):
     if fh <= 80 :
         print("Bi-weekly Pay:", pay)
         print("Monthly Pay:", float(pay) * 2)
-
     else:
         otp = (fh - 80.0) * (fr * 0.5)
         pay_ot = pay + otp

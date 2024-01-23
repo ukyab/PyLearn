@@ -24,4 +24,3 @@ def calc(fh, fr):
 
 if __name__ == '__main__' :
     main()
-
